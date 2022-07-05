@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Speedee-Bold';
+    font-display: swap;
+    src:url('../../../static/fonts/Speedee_W_Bd.woff') format('woff'),
+        url('../../../static/fonts/Speedee_W_Bd.woff2')  format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Speedee-Light';
+    font-display: swap;
+    src:url('../../../static/fonts/Speedee_W_Lt.woff') format('woff'),
+        url('../../../static/fonts/Speedee_W_Lt.woff2')  format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Speedee-Normal';
+    font-display: swap;
+    src:url('../../../static/fonts/Speedee_W_Rg.woff') format('woff'),
+        url('../../../static/fonts/Speedee_W_Rg.woff2')  format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Speedee-Italic';
+    font-display: swap;
+    src:url('../../../static/fonts/Speedee_W_Rg.woff') format('woff'),
+        url('../../../static/fonts/Speedee_W_Rg.woff2')  format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}

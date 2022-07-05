@@ -1,0 +1,9 @@
+/build
+/node_modules
+/test-coverage
+config
+.vscode
+/app-config
+/src/mockApi
+/src/static
+
