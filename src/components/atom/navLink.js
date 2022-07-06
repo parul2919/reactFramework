@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const NavLink = (props) => {
   const { className, children, to } = props;
-
   const location = useLocation();
   return (
     <Link

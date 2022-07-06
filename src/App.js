@@ -1,11 +1,10 @@
 /* eslint-disable no-nested-ternary */
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import Theme from "../../common/style/theme/theme";
-import "../../common/style/css/index.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Routers from "../Router/Routers";
-import ErrorBoundary from "../errorBoundry";
+import Theme from "./common/style/theme/theme";
+import "./common/style/css/index.css";
+import Routers from "./Router/Routers";
+import ErrorBoundary from "./components/atom/errorBoundry";
 
 function App() {
   const { REACT_APP_CHECK_URL_1, REACT_APP_CHECK_ENV } = process.env;

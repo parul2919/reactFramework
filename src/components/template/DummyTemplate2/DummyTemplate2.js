@@ -9,8 +9,11 @@ const DummyTemplate2 = (props) => {
   return (
     <>
       <MemoizedHeader />
-      <div className={`${className} dummy-template`}>
-        Here will have main content
+      <div className={`${className} dummy-template wrapper-std`}>
+        Here will have main content. Here will have main content.Here will have
+        main content.Here will have main content.Here will have main
+        content.Here will have main contentHere will have main contentHere will
+        have main contentHere will have main content
       </div>
       <MemoizedFooter />
     </>

@@ -1,6 +1,7 @@
 import colors from "./colors";
 import fonts from "./fonts";
 import dimension from "./dimensions";
+import GRID_CONFIG from "./gridConfig";
 
 const theme = {
   // app colors
@@ -80,6 +81,13 @@ const theme = {
   boxShadow: `0px 2px 4px -1px ${colors.DARK_GREY}`,
   hoverBoxShadow: `0px 4px 5px -1px ${colors.DARK_GREY}`,
   boxShadowLight: `0px 1px 5px 0px ${colors.LIGHT_GREY}`,
+
+  // grid config
+
+  maxSize: GRID_CONFIG.maxSize,
+  gutters: GRID_CONFIG.gutters,
+  screenOffset: GRID_CONFIG.offsets,
+  screenSize: GRID_CONFIG.scrnSizes,
 };
 
 const themes = { dimension, ...theme };

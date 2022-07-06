@@ -25,6 +25,11 @@ export default css`
   }
   a.nav-link {
     color: ${(props) => props.theme.colorMcdBlack};
-    text-decoration: underline;
+    padding: 12px;
+    cursor: pointer;
+    &.active {
+      text-decoration: underline;
+      color: ${(props) => props.theme.colorMcdRed};
+    }
   }
 `;

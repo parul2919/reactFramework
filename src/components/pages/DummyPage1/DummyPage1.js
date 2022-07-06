@@ -1,5 +1,5 @@
 import React from "react";
-import DummyTemplate1 from "../../components/template/DummyTemplate1/DummyTemplate1";
+import DummyTemplate1 from "../../template/DummyTemplate1/DummyTemplate1";
 
 const wrapperStyles = {
   maxWidth: "100%",

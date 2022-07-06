@@ -1,41 +1,5 @@
 @import 'fonts.css';
 @import 'app.css';
-.main{
-    width: 100%;
-    max-width:1440px;
-    margin: 80px auto 30px;
-}
-.access-denied{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    color: #db0007;
-    top: 120px;
-    font-size: 18px;
-}
-.no-user{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    color: red;
-    top: 105px;
-    font-size: 20px;
-    line-height: 22px;
-}
-.warning{
-    font-size: 40px;
-    vertical-align: bottom;
-}
-.text{
-    font-size: 15px;
-}
-.loading{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    color: green;
-    top: 120px;
-    font-size: 18px;
-}
-/*@import 'normalize.css';*/
+@import 'normalize.css';
+@import 'utilClasses.css';
 

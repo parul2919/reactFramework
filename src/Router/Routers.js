@@ -1,9 +1,9 @@
 /* eslint-disable no-nested-ternary */
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import DummyPage1 from "../DummyPage1/DummyPage1";
-import DummyPage2 from "../DummyPage2/DummyPage2";
-import DummyPage3 from "../DummyPage3/DummyPage3";
+import DummyPage1 from "../components/pages/DummyPage1/DummyPage1";
+import DummyPage2 from "../components/pages/DummyPage2/DummyPage2";
+import DummyPage3 from "../components/pages/DummyPage3/DummyPage3";
 
 function Routers() {
   return (

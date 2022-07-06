@@ -11,7 +11,7 @@ const Header = (props) => {
 
   return (
     <header className={`header ${className}`}>
-      <nav className="navbar navbar-expand">
+      <nav className="navbar navbar-expand d-flex align-items-center justify-content-between">
         <Link className="navbar-brand " to="/">
           <img src={Dummy} alt="logo-img" width="150" />
         </Link>
