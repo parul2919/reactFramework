@@ -8,8 +8,12 @@ export default css`
         padding: 8px 0;
       }
     }
-    a {
+    h3 {
       color: ${(props) => props.theme.colorLink};
+    }
+    b {
+      color: ${(props) => props.theme.colorMcdRed};
+      padding-right: 10px;
     }
   }
 `;

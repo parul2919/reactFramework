@@ -34,7 +34,7 @@ export default css`
       text-decoration: none;
     }
   }
-  .button--gold {
+  .button--primary {
     background: ${(props) => props.theme.colorMcdGold};
     border: 1px solid ${(props) => props.theme.colorMcdGold};
     color: ${(props) => props.theme.white};

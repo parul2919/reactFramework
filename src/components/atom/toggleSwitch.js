@@ -21,7 +21,7 @@ const useStyles = makeStyles(() => ({
     backgroundColor: "#d8d8d8",
   },
 }));
-export default function BasicSwitches(props) {
+export default function ToggleSwitch(props) {
   const { toggleSwitch, checked } = props;
   const classes = useStyles();
   const handleChange = () => {

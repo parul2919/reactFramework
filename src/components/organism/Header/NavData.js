@@ -1,20 +1,26 @@
 const NavData = [
   {
-    page: "DemoPage1",
-    htmlText: "Demo Link 1",
+    page: "TechStackPage",
+    htmlText: "Tech Stacks",
     link: "/",
     newTab: false,
   },
   {
-    page: "DemoPage2",
-    htmlText: "Demo Link 2",
-    link: "/demoLink2",
+    page: "CompLibraryPage",
+    htmlText: "Component Library",
+    link: "/component-library",
     newTab: false,
   },
   {
-    page: "DemoPage3",
-    htmlText: "Demo Link 3",
-    link: "/demoLink3",
+    page: "ProjectStructurePage",
+    htmlText: "Project Structure",
+    link: "/project-structure",
+    newTab: false,
+  },
+  {
+    page: "UtilityListingsPage",
+    htmlText: "Utilities",
+    link: "/utilities",
     newTab: false,
   },
 ];

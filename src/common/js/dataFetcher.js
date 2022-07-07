@@ -1,5 +1,5 @@
 /**
- * Implements a data fetcher using browser fetch api
+ * Allows to make api calls using browser fetch api
  * @param {string} url The URL to request; may include query string
  * @param {any} payload Optional payload to POST with the request.
  * @param {boolean}isHeaderRequired to set true or false if header required or not.

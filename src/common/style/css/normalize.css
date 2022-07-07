@@ -8,33 +8,29 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
-    line-height: 1.15;
-    /* 1 */
-    -webkit-text-size-adjust: 100%;
-    /* 2 */
+
+ html {
+    font-size: 16px;
+    overflow-x: hidden;
 }
-
-/* Sections
-   ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
 body {
+    overflow: hidden;
+    font-family: "Speedee-Normal";
     margin: 0;
+} 
+h1{
+    font-size:32px;
+    font-family: "Speedee-Bold";
+    margin:5px 0;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
+p, ul, li, a{
+    font-size:14px;
+    font-family: "Speedee-Normal";
+    margin:0;
+    padding: 5px;
+} 
+ 
 
 /* Grouping content
    ========================================================================== */

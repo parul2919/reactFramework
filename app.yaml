@@ -1,0 +1,11 @@
+runtime: <dependency node version eg- nodejs14 >
+service: <serviceName eg- myService>
+
+handlers:
+  - url: /(.*\..+)$
+    static_files: build/\1
+    upload: build/(.*\..+)$
+
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html 

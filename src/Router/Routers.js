@@ -1,17 +1,23 @@
 /* eslint-disable no-nested-ternary */
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import DummyPage1 from "../components/pages/DummyPage1/DummyPage1";
-import DummyPage2 from "../components/pages/DummyPage2/DummyPage2";
-import DummyPage3 from "../components/pages/DummyPage3/DummyPage3";
+import TechStackPage from "../components/pages/TechStackPage/TechStackPage";
+import CompLibraryPage from "../components/pages/CompLibraryPage/CompLibraryPage";
+import ProjectStructurePage from "../components/pages/ProjectStructurePage/ProjectStructurePage";
+import UtilityListingsPage from "../components/pages/UtilityListingsPage/UtilityListingsPage";
 
 function Routers() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<DummyPage1 />} />
-        <Route exact path="/demoLink2" element={<DummyPage2 />} />
-        <Route exact path="/demoLink3" element={<DummyPage3 />} />
+        <Route exact path="/" element={<TechStackPage />} />
+        <Route exact path="/component-library" element={<CompLibraryPage />} />
+        <Route
+          exact
+          path="/project-structure"
+          element={<ProjectStructurePage />}
+        />
+        <Route exact path="/utilities" element={<UtilityListingsPage />} />
       </Routes>
     </Router>
   );

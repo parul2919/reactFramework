@@ -1,3 +1,11 @@
+/** 
+ * enables custom style checkbox implementation 
+ * Needed Html Structure ::
+ *  <label className="checkbox" htmlFor="ex-checkbox"}>     
+      <input type="checkbox" name="checkbox" id="ex-checkbox" />
+      <span className="check-box-effect" />
+    </label>
+ * */
 import { css } from "styled-components";
 
 export default css`
