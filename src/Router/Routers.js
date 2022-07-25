@@ -5,6 +5,7 @@ import TechStackPage from "../components/pages/TechStackPage/TechStackPage";
 import CompLibraryPage from "../components/pages/CompLibraryPage/CompLibraryPage";
 import ProjectStructurePage from "../components/pages/ProjectStructurePage/ProjectStructurePage";
 import UtilityListingsPage from "../components/pages/UtilityListingsPage/UtilityListingsPage";
+import FormExPage from "../components/pages/FormExPage/FormExPage";
 
 function Routers() {
   return (
@@ -18,6 +19,7 @@ function Routers() {
           element={<ProjectStructurePage />}
         />
         <Route exact path="/utilities" element={<UtilityListingsPage />} />
+        <Route exact path="/form" element={<FormExPage />} />
       </Routes>
     </Router>
   );

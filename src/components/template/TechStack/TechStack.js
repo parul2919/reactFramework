@@ -15,7 +15,7 @@ const TechStack = (props) => {
   }, []);
   return (
     <div className={`${className} dummy-template`}>
-      <div className="d-none">
+      <div className="">
         Only to understand connection with redux and checking env files
         <p>Checking env variables value</p>
         <div className="mb-5">{REACT_APP_CHECK_URL_1}</div>

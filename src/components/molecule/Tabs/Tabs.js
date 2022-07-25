@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import styles from "./Tabs.style";
-import Tab from "../../atom/tabs";
+import TabButton from "../../atom/TabButton";
 
 const Tabs = (props) => {
   const { children } = props;
@@ -16,7 +16,7 @@ const Tabs = (props) => {
         {children.map((child) => {
           const { label } = child.props;
           return (
-            <Tab
+            <TabButton
               activeTab={activeTab}
               key={label}
               label={label}

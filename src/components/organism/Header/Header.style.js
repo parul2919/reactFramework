@@ -6,30 +6,4 @@ export default css`
   width: 100%;
   z-index: 9;
   top: 0;
-  .navbar {
-    max-width: 1440px;
-    margin: auto;
-    flex-wrap: wrap;
-    @media ${(props) => props.theme.tabletMediaQuery} {
-      flex-wrap: nowrap;
-    }
-  }
-  .navbar-expand .navbar-collapse {
-    justify-content: end;
-  }
-  .navbar-expand .navbar-nav {
-    flex-wrap: wrap;
-    @media ${(props) => props.theme.tabletMediaQuery} {
-      flex-wrap: nowrap;
-    }
-  }
-  a.nav-link {
-    color: ${(props) => props.theme.colorMcdBlack};
-    padding: 12px;
-    cursor: pointer;
-    &.active {
-      text-decoration: underline;
-      color: ${(props) => props.theme.colorMcdRed};
-    }
-  }
 `;

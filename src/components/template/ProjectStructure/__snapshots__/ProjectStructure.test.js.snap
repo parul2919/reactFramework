@@ -54,6 +54,14 @@ Object {
                 >
                   Project Structure
                 </a>
+                <a
+                  class="nav-link"
+                  href="/utilities"
+                  style="text-decoration: none;"
+                  target="_self"
+                >
+                  Utilities
+                </a>
               </ul>
             </div>
           </nav>
@@ -309,7 +317,6 @@ Object {
                 >
                   <h4>
                     Contains utility files to make development easy and to avoid redundency
-                     
                   </h4>
                   <ul>
                     <li>
@@ -411,6 +418,14 @@ Object {
                 target="_self"
               >
                 Project Structure
+              </a>
+              <a
+                class="nav-link"
+                href="/utilities"
+                style="text-decoration: none;"
+                target="_self"
+              >
+                Utilities
               </a>
             </ul>
           </div>
@@ -667,7 +682,6 @@ Object {
               >
                 <h4>
                   Contains utility files to make development easy and to avoid redundency
-                   
                 </h4>
                 <ul>
                   <li>

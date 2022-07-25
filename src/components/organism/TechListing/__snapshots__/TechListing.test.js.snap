@@ -157,11 +157,11 @@ Object {
             </li>
             <li>
               <a
-                href="https://momentjs.com/docs/"
+                href="https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/"
               >
-                Moment.js
+                Moment.js -
               </a>
-              - Moment JS allows displaying of date as per localization and in human readable format.
+              Moment JS allows displaying of date as per localization and in human readable format.
             </li>
             <li>
               <a
@@ -176,6 +176,13 @@ Object {
           <h3>
             5. Deployment :: For demonstraction assuming GCP for deployment
           </h3>
+          <p>
+            Need to put 
+            <b>
+              app.yml
+            </b>
+             file with defined configurations such as : Node dependency, Service name and hendlers like build files etc
+          </p>
           <h3>
             6. Deployment CI Followlines
           </h3>
@@ -365,11 +372,11 @@ Object {
           </li>
           <li>
             <a
-              href="https://momentjs.com/docs/"
+              href="https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/"
             >
-              Moment.js
+              Moment.js -
             </a>
-            - Moment JS allows displaying of date as per localization and in human readable format.
+            Moment JS allows displaying of date as per localization and in human readable format.
           </li>
           <li>
             <a
@@ -384,6 +391,13 @@ Object {
         <h3>
           5. Deployment :: For demonstraction assuming GCP for deployment
         </h3>
+        <p>
+          Need to put 
+          <b>
+            app.yml
+          </b>
+           file with defined configurations such as : Node dependency, Service name and hendlers like build files etc
+        </p>
         <h3>
           6. Deployment CI Followlines
         </h3>
