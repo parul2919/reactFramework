@@ -44,6 +44,11 @@
   },
   "husky": {
     "hooks": {
+      "prepare": "npm run build",
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+
       "pre-commit": "lint-staged ",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-push": "npm run test"
@@ -56,9 +61,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "npm run lint:fix",
-      "npm run build:staging",
-      "git add"
+      "npm run lint:fix"
     ]
   },
   "eslintConfig": {
