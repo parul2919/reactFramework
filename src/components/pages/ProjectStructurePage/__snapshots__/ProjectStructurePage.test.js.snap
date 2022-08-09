@@ -9,13 +9,13 @@ Object {
         style="max-width: 100%; margin: auto;"
       >
         <div
-          class="sc-hKMtZM gPhcHH"
+          class="sc-gKXOVf gukpUR"
         >
           <header
-            class="header sc-gsnTZi jOpTsK"
+            class="header sc-eCYdqJ lkPLVQ"
           >
             <nav
-              class="navbar navbar-expand d-flex align-items-center justify-content-between"
+              class="navbar  sc-hKMtZM jzgEMa"
             >
               <a
                 class="navbar-brand "
@@ -28,49 +28,121 @@ Object {
                 />
               </a>
               <div
-                class="collapse navbar-collapse"
+                class="sc-gsnTZi gXHhKa collapse navbar-collapse menu-items"
               >
                 <ul
-                  class="navbar-nav ml-auto "
+                  class="navbar-nav ml-auto main-menu "
                 >
-                  <a
-                    class="nav-link"
-                    href="/"
-                    style="text-decoration: underline;"
-                    target="_self"
+                  <li
+                    class="active dropdown-hide"
                   >
-                    Tech Stacks
-                  </a>
-                  <a
-                    class="nav-link"
-                    href="/component-library"
-                    style="text-decoration: none;"
-                    target="_self"
+                    <a
+                      class="nav-link"
+                      href="/"
+                      target="_self"
+                    >
+                      Tech Stacks
+                    </a>
+                  </li>
+                  <li
+                    class="inactive dropdown-hide"
                   >
-                    Component Library
-                  </a>
-                  <a
-                    class="nav-link"
-                    href="/project-structure"
-                    style="text-decoration: none;"
-                    target="_self"
+                    <a
+                      class="nav-link"
+                      href="/component-library"
+                      target="_self"
+                    >
+                      Component Library
+                    </a>
+                  </li>
+                  <li
+                    class="inactive dropdown-hide"
                   >
-                    Project Structure
-                  </a>
-                  <a
-                    class="nav-link"
-                    href="/utilities"
-                    style="text-decoration: none;"
-                    target="_self"
+                    <a
+                      class="nav-link"
+                      href="/project-structure"
+                      target="_self"
+                    >
+                      Project Structure
+                    </a>
+                  </li>
+                  <li
+                    class="inactive dropdown-hide"
                   >
-                    Utilities
-                  </a>
+                    <a
+                      class="nav-link"
+                      href="/utilities"
+                      target="_self"
+                    >
+                      Utilities
+                    </a>
+                  </li>
+                  <li
+                    class="inactive dropdown-hide"
+                  >
+                    <a
+                      class="nav-link"
+                      href="/testNav"
+                      target="_self"
+                    >
+                      TestNav
+                    </a>
+                    <div
+                      class="undefined collapse navbar-collapse sub-menu"
+                    >
+                      <ul
+                        class="navbar-nav ml-auto sub-menu-1 "
+                      >
+                        <li
+                          class="inactive dropdown-hide"
+                        >
+                          <a
+                            class="nav-link"
+                            href="/form"
+                            target="_self"
+                          >
+                            FormEx
+                          </a>
+                        </li>
+                        <li
+                          class="inactive dropdown-hide"
+                        >
+                          <a
+                            class="nav-link"
+                            href="/2"
+                            target="_self"
+                          >
+                            Subnav2
+                          </a>
+                          <div
+                            class="undefined collapse navbar-collapse sub-menu"
+                          >
+                            <ul
+                              class="navbar-nav ml-auto sub-menu-2 "
+                            >
+                              <li
+                                class="inactive dropdown-hide"
+                              >
+                                <a
+                                  class="nav-link"
+                                  href="/3"
+                                  target="_self"
+                                >
+                                  NestedNav
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </nav>
           </header>
           <section
-            class="projectStruct wrapper-std sc-dkzDqf dSlwri"
+            class="projectStruct wrapper-std sc-jSMfEi lmHQLa"
           >
             <div
               class="techStack-list"
@@ -378,13 +450,13 @@ Object {
       style="max-width: 100%; margin: auto;"
     >
       <div
-        class="sc-hKMtZM gPhcHH"
+        class="sc-gKXOVf gukpUR"
       >
         <header
-          class="header sc-gsnTZi jOpTsK"
+          class="header sc-eCYdqJ lkPLVQ"
         >
           <nav
-            class="navbar navbar-expand d-flex align-items-center justify-content-between"
+            class="navbar  sc-hKMtZM jzgEMa"
           >
             <a
               class="navbar-brand "
@@ -397,49 +469,121 @@ Object {
               />
             </a>
             <div
-              class="collapse navbar-collapse"
+              class="sc-gsnTZi gXHhKa collapse navbar-collapse menu-items"
             >
               <ul
-                class="navbar-nav ml-auto "
+                class="navbar-nav ml-auto main-menu "
               >
-                <a
-                  class="nav-link"
-                  href="/"
-                  style="text-decoration: underline;"
-                  target="_self"
+                <li
+                  class="active dropdown-hide"
                 >
-                  Tech Stacks
-                </a>
-                <a
-                  class="nav-link"
-                  href="/component-library"
-                  style="text-decoration: none;"
-                  target="_self"
+                  <a
+                    class="nav-link"
+                    href="/"
+                    target="_self"
+                  >
+                    Tech Stacks
+                  </a>
+                </li>
+                <li
+                  class="inactive dropdown-hide"
                 >
-                  Component Library
-                </a>
-                <a
-                  class="nav-link"
-                  href="/project-structure"
-                  style="text-decoration: none;"
-                  target="_self"
+                  <a
+                    class="nav-link"
+                    href="/component-library"
+                    target="_self"
+                  >
+                    Component Library
+                  </a>
+                </li>
+                <li
+                  class="inactive dropdown-hide"
                 >
-                  Project Structure
-                </a>
-                <a
-                  class="nav-link"
-                  href="/utilities"
-                  style="text-decoration: none;"
-                  target="_self"
+                  <a
+                    class="nav-link"
+                    href="/project-structure"
+                    target="_self"
+                  >
+                    Project Structure
+                  </a>
+                </li>
+                <li
+                  class="inactive dropdown-hide"
                 >
-                  Utilities
-                </a>
+                  <a
+                    class="nav-link"
+                    href="/utilities"
+                    target="_self"
+                  >
+                    Utilities
+                  </a>
+                </li>
+                <li
+                  class="inactive dropdown-hide"
+                >
+                  <a
+                    class="nav-link"
+                    href="/testNav"
+                    target="_self"
+                  >
+                    TestNav
+                  </a>
+                  <div
+                    class="undefined collapse navbar-collapse sub-menu"
+                  >
+                    <ul
+                      class="navbar-nav ml-auto sub-menu-1 "
+                    >
+                      <li
+                        class="inactive dropdown-hide"
+                      >
+                        <a
+                          class="nav-link"
+                          href="/form"
+                          target="_self"
+                        >
+                          FormEx
+                        </a>
+                      </li>
+                      <li
+                        class="inactive dropdown-hide"
+                      >
+                        <a
+                          class="nav-link"
+                          href="/2"
+                          target="_self"
+                        >
+                          Subnav2
+                        </a>
+                        <div
+                          class="undefined collapse navbar-collapse sub-menu"
+                        >
+                          <ul
+                            class="navbar-nav ml-auto sub-menu-2 "
+                          >
+                            <li
+                              class="inactive dropdown-hide"
+                            >
+                              <a
+                                class="nav-link"
+                                href="/3"
+                                target="_self"
+                              >
+                                NestedNav
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
             </div>
           </nav>
         </header>
         <section
-          class="projectStruct wrapper-std sc-dkzDqf dSlwri"
+          class="projectStruct wrapper-std sc-jSMfEi lmHQLa"
         >
           <div
             class="techStack-list"

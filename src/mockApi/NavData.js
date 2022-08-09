@@ -28,9 +28,9 @@ const NavData = [
     order:1,
   },
   {
-    page: "TestNavPage",
-    htmlText: "TestNav",
-    link: "/testNav",
+    page: "MediaPage",
+    htmlText: "Media",
+    link: "/media",
     newTab: false,
     order:1,
     subMenu: [
