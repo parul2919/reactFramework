@@ -12,6 +12,7 @@ const Media = (props) => {
       <MediaGallery />
       <Carousel />
       <MemoizedFooter />
+      
     </div>
   );
 };
