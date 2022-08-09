@@ -44,13 +44,9 @@
   },
   "husky": {
     "hooks": {
-      "prepare": "npm run build",
-      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
-      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
-      "post-applypatch": "echo \"[Husky] post-applypatch\"",
-
       "pre-commit": "lint-staged ",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "post-commit": "npm run build ",
+      "commit-msg": "npx --no -- commitlint --edit '$1'",
       "pre-push": "npm run test"
     }
   },

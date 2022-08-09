@@ -165,7 +165,6 @@ const Carousel = (props) => {
             onClick={(e) => clickHandle(e, -1)}
             id="rightArrow"
             xmlns="http://www.w3.org/2000/svg"
-            
             preserveAspectRatio="xMinYMin meet"
             width="80"
             height="150"
